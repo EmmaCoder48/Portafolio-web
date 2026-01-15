@@ -34,6 +34,12 @@ export default function Navbar() {
             className="hover:text-orange-400 transition-colors">
             GitHub
           </Link>
+          <Link
+            href="https://www.linkedin.com/in/emmanuel-gom%C3%A9z-73974b394/"
+            target="_blank"
+            className="hover:text-orange-400 transition-colors">
+            LinkedIn
+          </Link>
         </div>
       </div>
     </nav>
