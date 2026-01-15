@@ -21,8 +21,8 @@ export default function Navbar() {
           {/* ENLACE CV: Utilizo 'target="_blank"' para abrir el documento en 
               una nueva pestaña, evitando que el usuario abandone el sitio principal. */}
           <a
-            href="/CV_Emmanuel_Gomez.pdf"
-            download="CV_Emmanuel_Gomez.pdf"
+            href="/CV_Emmanuel_Gomez_Frontend_Developer.pdf"
+            download="CV_Emmanuel_Gomez_Frontend_Developer.pdf"
             className="hover:text-orange-400 transition-colors cursor-pointer">
             Descargar CV
           </a>
