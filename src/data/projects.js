@@ -30,4 +30,13 @@ export const PROJECTS = [
     github: "https://github.com/EmmaCoder48/NASA-OF-THE-DAY",
     demo: "https://nasa-of-the-day.vercel.app/",
   },
+  {
+    id: 3,
+    title: "SpaceX Launches",
+    description:
+      "Dashboard de telemetría en tiempo real para el seguimiento de misiones espaciales.",
+    tags: ["React", "Next.js", "SpaceX API"],
+    github: "https://github.com/EmmaCoder48/SpaceX-Mission-Control-Dashboard",
+    demo: "https://space-x-mission-control-dashboard.vercel.app/",
+  },
 ];
