@@ -1,26 +1,16 @@
+/* Importa todas las utilidades de Tailwind CSS para poder usarlas en el proyecto */
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Configuración de los elementos raíz del sitio */
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Establece el fondo negro puro para todo el sitio */
+  background-color: black;
+
+  /* Elimina los espacios internos (padding) y externos (margin) que el navegador trae por defecto */
+  margin: 0;
+  padding: 0;
+
+  /* Asegura que el cuerpo de la página ocupe siempre el 100% de la altura de la pantalla */
+  height: 100%;
 }

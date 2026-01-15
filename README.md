@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Space-Tech Portfolio | Gargantúa Edition
 
-## Getting Started
+Este es mi portafolio profesional desarrollado con **Next.js 15**. El diseño está inspirado en interfaces de comando de misiones espaciales y astrofotografía de alta resolución, enfocado en la visualización de datos en tiempo real.
 
-First, run the development server:
+## 🛰️ Proyectos Destacados
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. ISS ORBITAL TRACKER
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aplicación de monitoreo orbital que rastrea la ISS en tiempo real. Implementa geolocalización dinámica para visualizar la ubicación exacta y el manifiesto de la tripulación actual mediante la API de la NASA.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 2. NASA APOD EXPLORER
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Interfaz de exploración astronómica impulsada por la API APOD de la NASA. Renderiza diariamente astrofotografía de alta resolución con metadatos técnicos del Jet Propulsion Laboratory (JPL).
 
-## Learn More
+### 3. SPACEX MISSION CONTROL
 
-To learn more about Next.js, take a look at the following resources:
+Dashboard de lanzamientos que integra la API de SpaceX. Cuenta con un contador militar para el próximo despegue y un sistema de filtrado dinámico para el historial de misiones de la flota Falcon y Starship.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+- **Framework:** Next.js 15 (App Router)
+- **Styling:** Tailwind CSS (Minimalist Formal Style)
+- **Data Sources:** NASA API & SpaceX API
+- **Deployment:** Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏗️ Lógica y Arquitectura
+
+El proyecto aplica conceptos avanzados de React para una experiencia fluida:
+
+- **Estado (useState):** Gestión de filtros dinámicos (All/Success/Failed) y contadores en tiempo real.
+- **Data Fetching:** Consumo asíncrono de APIs externas con validación de datos.
+- **Componentes:** Estructura modular para mantener un código limpio y escalable.
