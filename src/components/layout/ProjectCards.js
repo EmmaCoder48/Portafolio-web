@@ -1,4 +1,4 @@
-export default function ProjectCard({ title, description, tags, link }) {
+export default function ProjectCard({ title, description, tags, link, demo }) {
   return (
     /* CONTENEDOR DE LA TARJETA:
        Implemento un diseño basado en Flexbox para asegurar que el botón de 
@@ -52,6 +52,12 @@ export default function ProjectCard({ title, description, tags, link }) {
           target="_blank"
           className="block w-full text-center py-3 border border-white/5 text-white/40 text-[10px] uppercase tracking-[0.3em] hover:bg-white/[0.03] hover:text-amber-500 hover:border-amber-500/50 transition-all">
           Documentation →
+        </a>
+        <a
+          href={demo}
+          target="_blank"
+          className="block w-full text-center py-3 border border-white/5 text-white/40 text-[10px] uppercase tracking-[0.3em] hover:bg-white/[0.03] hover:text-amber-500 hover:border-amber-500/50 transition-all">
+          Ver Demo →
         </a>
       </div>
     </div>

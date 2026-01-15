@@ -19,7 +19,7 @@ export const PROJECTS = [
        Enlaces directos al repositorio para la revisión de código (Code Review)
        y enlace a la demo funcional (enlace de despliegue). */
     github: "https://github.com/EmmaCoder48/Where-is-the-ISS-",
-    demo: "#",
+    demo: "https://where-is-the-iss-iota.vercel.app/",
   },
   {
     id: 2,
@@ -28,6 +28,6 @@ export const PROJECTS = [
       "Explorador de la 'Imagen Astronómica del Día'. Renderizado dinámico de astrofotografía con metadatos técnicos del Jet Propulsion Laboratory.",
     tags: ["React", "Bootstrap", "NASA API"],
     github: "https://github.com/EmmaCoder48/NASA-OF-THE-DAY",
-    demo: "#",
+    demo: "https://nasa-of-the-day.vercel.app/",
   },
 ];

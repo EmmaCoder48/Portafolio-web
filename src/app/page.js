@@ -37,6 +37,7 @@ export default function Home() {
               description={proyecto.description}
               tags={proyecto.tags}
               link={proyecto.github}
+              demo={proyecto.demo}
             />
           ))}
         </div>
