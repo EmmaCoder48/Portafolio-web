@@ -20,13 +20,12 @@ export default function Navbar() {
         <div className="flex gap-8 text-sm font-medium text-slate-300 uppercase tracking-widest">
           {/* ENLACE CV: Utilizo 'target="_blank"' para abrir el documento en 
               una nueva pestaña, evitando que el usuario abandone el sitio principal. */}
-          <Link
-            href="/cv.pdf"
-            target="_blank"
-            className="hover:text-orange-400 transition-colors">
+          <a
+            href="/CV_Emmanuel_Gomez.pdf"
+            download="CV_Emmanuel_Gomez.pdf"
+            className="hover:text-orange-400 transition-colors cursor-pointer">
             Descargar CV
-          </Link>
-
+          </a>
           {/* ENLACE GITHUB: Integro la transición de color ('transition-colors') 
               para proporcionar un feedback visual suave al interactuar con el enlace. */}
           <Link

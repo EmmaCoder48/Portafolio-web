@@ -2,7 +2,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css"; // Importamos los estilos globales (fondo negro, etc.)
 
-// Configuración de la fuente Sans (sin serifas, moderna)
+// Configuración de la fuente Sans
 const geistSans = Geist({
   variable: "--font-geist-sans", // Creamos una variable CSS para usarla en Tailwind
   subsets: ["latin"],
