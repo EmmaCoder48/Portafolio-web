@@ -39,4 +39,13 @@ export const PROJECTS = [
     github: "https://github.com/EmmaCoder48/SpaceX-Mission-Control-Dashboard",
     demo: "https://space-x-mission-control-dashboard.vercel.app/",
   },
+  {
+    id: 4,
+    title: "The Vault",
+    description:
+      "Plataforma de descubrimiento de juegos de mesa con catálogo interactivo, filtros avanzados y simulación de comportamiento de API para una experiencia similar a producción.",
+    tags: ["React", "Next.js", "Tailwind CSS", "Context API"],
+    github: "https://github.com/EmmaCoder48/the-vault",
+    demo: "https://the-vault-liart.vercel.app/",
+  },
 ];

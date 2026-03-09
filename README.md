@@ -16,6 +16,10 @@ Interfaz de exploración astronómica impulsada por la API APOD de la NASA. Rend
 
 Dashboard de lanzamientos que integra la API de SpaceX. Cuenta con un contador militar para el próximo despegue y un sistema de filtrado dinámico para el historial de misiones de la flota Falcon y Starship.
 
+### 4. THE VAULT – BOARD GAME DISCOVERY PLATFORM (Prueba Técnica)
+
+Plataforma de descubrimiento de juegos de mesa desarrollada con Next.js. Presenta un catálogo interactivo con filtros avanzados y gestión de estado global mediante Context API. Incluye simulación de latencia de red, estados de carga con Skeleton Loaders y un sistema de juegos promocionados y sponsors diseñado para mantener una experiencia de usuario clara y escalable.
+
 ---
 
 ## 🛠️ Tech Stack
